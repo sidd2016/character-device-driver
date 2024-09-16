@@ -1,0 +1,9 @@
+/home/siddharth/clang/_01/initFunc.o
+/home/siddharth/clang/_01/exitFunc.o
+/home/siddharth/clang/_01/openDevice.o
+/home/siddharth/clang/_01/releaseDevice.o
+/home/siddharth/clang/_01/writeDevice.o
+/home/siddharth/clang/_01/readDevice.o
+/home/siddharth/clang/_01/creatScull.o
+/home/siddharth/clang/_01/trimDevice.o
+/home/siddharth/clang/_01/lseekDev.o

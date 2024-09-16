@@ -1,0 +1,17 @@
+#! /bin/bash
+ 
+mainMenu()
+{
+	echo "__MAIN MENU__"
+	echo "1: Build Character Driver"
+	echo "2: Insert Character Driver"
+ 	echo "3: Check Driver Messages"
+ 	echo "4: Create Device Node"
+ 	echo "5: Build Application"
+ 	echo "6: Test Driver with Application"
+ 	echo "7: Remove Character Driver"
+ 	echo "0: Exit Script"
+ 	echo "Please Enter Your choice: "
+ 	read resp
+ 	return $resp
+}

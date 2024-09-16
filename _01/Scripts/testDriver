@@ -1,0 +1,51 @@
+#! /bin/bash
+
+source ./mainMenu
+source ./buildcdd
+source ./insertcdd
+source ./checkcddmsg
+source ./creatdev
+source ./buildapp
+source ./testcddapp
+source ./removecdd
+
+
+while true
+do
+	mainMenu
+	case $? in
+		0)
+			exit 0
+			;;
+
+		'1')
+			buildcdd;
+			;;
+
+		'2')
+			insertcdd $1;
+			;;
+
+		'3')
+			checkcddmsg;
+			;;
+		'4')
+			echo "Enter Major No"
+			read majorno
+			creatdev $majorno;
+			;;
+		'5')
+			buildapp;
+			;;
+		'6')
+			testcddapp;
+			;;
+		'7')
+			removecdd;
+			;;
+
+		*)
+			echo "Invalid Choice"
+	esac
+done
+
